@@ -1,0 +1,115 @@
+body {
+  background-color: #EFF6FF;
+  display: grid;
+}
+
+@font-face {
+  font-family: fontmy;
+  src: url(font/Barlow-Light.otf);
+}
+
+@font-face {
+  font-family: Myfont;
+  src: url(font/Barlow-SemiBold.otf);
+}
+
+ * {
+  font-family: fontmy;
+}
+
+h1, h3 {
+  font-family: Myfont;
+}
+
+.container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:10px;
+    
+
+  }
+  .left {
+    width: 450px;
+    height: 700px;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .right {
+    background: white;
+    width: 450px;
+    height: 700px;
+  }
+
+  button {
+    color: white;
+    margin: 0 10px 10px 0;
+    border: none;
+    height: 30px;
+    width: 200px;
+  }
+
+  .fb-btn {
+    background-color: #255a9b;
+  }
+
+  .linkedin-btn {
+    background-color: #0076b6;
+  }
+
+  form input {
+    height: 50px;
+    width: 200px;
+  }
+
+  .info-box {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    color: #555;
+  }
+
+  .button {
+    background-color: rgb(49, 49, 230);
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .info-icon {
+    font-size: 12px !important;      
+    width: 12px;                    
+    height: 12px;
+    line-height: 12px;              
+    color: #999;
+    margin-left: 4px;
+    vertical-align: middle;
+    cursor: help;
+    display: inline-flex;            
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    color: white;
+  }
+
+
+.divider {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.05em;
+  margin: 20px 0;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 10px;  
+  color: #999;
+}
+
+  

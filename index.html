@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body> 
+    <div class="container">
+        <div class="left">
+            <img src="img/logo.png" alt="iintoo logo" class="logo">
+        </div>
+        <div class="right">
+            <h1>Get iintoo it today</h1>
+            <p>There is no charge or obligaiton upon registration.</p>
+            <button class="fb-btn" onclick="location.href='default.asp'">
+              <img src="img/facebook.svg" height="10" alt="facebook">
+              Register with Facebook
+          </button>
+          
+          <button class="linkedin-btn" onclick="location.href='default.asp'">
+              <img src="img/linkedin.svg" height="10" alt="linkedin">
+              Register with Linkedin
+          </button>
+          <br>
+          <div class="divider"><span>OR</span></div>
+
+          
+
+
+              <form action="/action_page.php">
+              <input type="email" value="gus.goodwin@gmail.com"
+                required>
+                <input type="tel" placeholder="Phone" required>
+                </form>
+                <br>
+                <br>
+                <br>
+
+
+                
+                
+
+              
+
+
+              <h3>What type of invesstor are you?</h3>
+              <p>Select the type of investor you are below</p>
+              
+              <div class="radio-group">
+ 
+             <label><input type="radio" value="Individual" name="Investors">
+                Individual
+                <span class="material-icons info-icon" title="Select this if you’re investing as a single person.">
+                    info_outline
+                  </span></label>
+              <label> <input type="radio" value="Business" name="Investors">
+                Business
+            <span class="material-icons info-icon" title="Select if you are investing as a Business.">
+                info_outline
+            </span>
+         </label>
+              <label> <input type="radio" value="IRA" name="Investors">
+                IRA
+                <span class="material-icons info-icon" title="Select if you are investing as a IRA">
+                    info_outline
+                </span>
+            </label>
+             <label><input type="radio" value="Trust" name="Investors">
+                Trust
+            <span class="material-icons info-icon" title="select if you are investing as a Trust">
+                info_outline
+            </span>
+         </label>
+             </div>
+             
+        
+
+              <br>
+              <br>
+
+              <div class="agree-box">
+                <label>
+                    <input type="checkbox" name="terms" id="terms">
+                I agree to the term and receving notificaitons from iintoo <a href="#terms">View full terms</a>
+                </label>
+              </div>
+
+
+              <br>
+          
+              <button class="button" type="submit">Create Account</button>
+            
+
+              
+
+            
+              
+              
+
+              
+
+            
+
+  
+        
+        </div>
+    </div>
+</body>
+</html>
