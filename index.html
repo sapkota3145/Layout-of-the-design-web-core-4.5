@@ -11,7 +11,7 @@
 <body> 
     <div class="container">
         <div class="left">
-            <img src="img/logo.png" alt="iintoo logo" class="logo">
+            <img src="img/logo.svg" alt="iintoo logo" width="100px" class="logo">
         </div>
         <div class="right">
             <h1>Get iintoo it today</h1>
@@ -28,31 +28,18 @@
           <br>
           <div class="divider"><span>OR</span></div>
 
-          
-
-
-              <form action="/action_page.php">
+           <form action="/action_page.php">
               <input type="email" value="gus.goodwin@gmail.com"
                 required>
                 <input type="tel" placeholder="Phone" required>
                 </form>
-                <br>
-                <br>
-                <br>
-
-
-                
-                
-
-              
-
 
               <h3>What type of investor are you?</h3>
               <p>Select the type of investor you are below</p>
               
               <div class="radio-group">
  
-             <label><input type="radio" value="Individual" name="Investors">
+             <label><input type="radio" value="Individual" name="Investors" id="ind-radio">
                 Individual
                 <span class="material-icons info-icon" title="Select this if you’re investing as a single person.">
                     info_outline
@@ -76,11 +63,11 @@
             </span>
          </label>
              </div>
-             
-        
 
-              <br>
-              <br>
+             <p class="info-box">
+                 I am a natural person investing on my<br>
+                  own behalf as a sole owner, joint tenant,<br>
+                   or tenant in common. </p>
 
               <div class="agree-box">
                 <label>
@@ -88,9 +75,6 @@
                 I agree to the term and receving notificaitons from iintoo <a href="#terms">View full terms</a>
                 </label>
               </div>
-
-
-              <br>
           
               <button class="button" type="submit">Create Account</button>
             
