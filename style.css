@@ -1,7 +1,6 @@
 body {
   background-color: #EFF6FF;
   color: #2A4A5C;
-  display: grid;
   }
 
 @font-face {
@@ -27,6 +26,7 @@ body {
     height: 100vh;
     gap: 0px;
     min-height: 800px;
+    max-width: 90%;
     }
 
   .left {
