@@ -26,7 +26,7 @@ body {
     height: 100vh;
     gap: 0px;
     min-height: 800px;
-    max-width: 90%;
+    min-width: 900px;
     }
 
   .left {
